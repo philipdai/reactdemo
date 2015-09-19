@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<meta	chaset="utf-8">
+		<title>React Demo</title>
+		<script src="http://cdn.bootcss.com/react/0.14.0-rc1/react.js"></script>
+		<script src="http://cdn.bootcss.com/react/0.14.0-rc1/react-dom.min.js"></script>
+		<script src="http://cdn.bootcss.com/react/0.14.0-beta3/JSXTransformer.js"></script>
+	</head>
+	<body>
+	<div id="app"></div>
+	<script type="text/javascript">
+	var HellowWorld = React.createClass({
+		render: function() {
+
+			return (
+				<div> Hello World </div>
+			)
+		}
+	});
+
+
+	ReactDOM.render(<HellowWorld />, document.getElementById("app"));
+	</script>
+	</body>
+</html>
